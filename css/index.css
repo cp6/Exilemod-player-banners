@@ -1,0 +1,94 @@
+body {
+    color: #e2e2e2;
+    background:  	#011f4b;
+    font: 90%/1.5 Arial;
+    text-align: center;
+}
+div {
+    width: 80%;
+    margin: 0 1.5%;
+    display: inline;
+}
+
+pre {
+    background: #eee;
+    padding: 1em;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.15);
+    overflow: auto;
+}
+h1 {
+    text-align: center;
+    color: #c44;
+}
+h2 {
+    margin-top: 0;
+}
+h3 {
+    margin-top: 3em
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /*box-shadow: inset 0 0 0 1px rgba(0,0,0,.15);*/
+    overflow: hidden;
+    min-height:11.75em; /* just here to force height */
+    background:  #03396c;
+}
+
+li {
+    float: left;
+    line-height: 2em;
+    text-align: left;
+    background:  	#03396c;
+    margin: 1.5%;
+    box-shadow: inset 0 0 0 2px rgba(0,0,0,.15);
+    display: inline;
+}
+/*
+li:hover{
+  float: left;
+  line-height: 3.2em;
+  text-align: left;
+  background:  	#03396c;
+  margin: 1.6%;
+  box-shadow: inset 0 0 0 2px rgba(0,0,0,.15);
+}*/
+.grid-3 li {
+    width:30.33%
+}
+
+.grid-4 li {
+    width:20%
+}
+
+.grid-5 li {
+    width:17%
+}
+
+.grid-weapon li {
+    width:30%;
+    float: left;
+    display: inline;
+}
+/* Last row styles
+------------------------------------------------ */
+/*
+.grid-3 li:nth-child(3n+1):nth-last-child(-n+3),
+  .grid-3 li:nth-child(3n+1):nth-last-child(-n+3) ~ li {
+  background: #cfa;
+}
+
+.grid-4 li:nth-child(4n+1):nth-last-child(-n+4),
+  .grid-4 li:nth-child(4n+1):nth-last-child(-n+4) ~ li {
+  background: #fac;
+}
+
+.grid-5 li:nth-child(5n+1):nth-last-child(-n+5),
+  .grid-5 li:nth-child(5n+1):nth-last-child(-n+5) ~ li {
+  background: #acf;
+}
+*/
+/* Demo page styles
+------------------------------------------------ */
